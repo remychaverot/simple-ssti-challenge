@@ -10,7 +10,7 @@ name_dino = ["triceratops", "stegosaurus", "diplodocus", "ankylosaurus", "iguano
 def home():
     dinosaure = request.args.get('dinosaure') or None
 
-    Developer_BlackLIST = [ "x5f", "u005F", "U0000005F", "u0073", "subclasses", "_load_form_data", "application", "_", ".", "builtins"]
+    Developer_BlackLIST = ["x5F", "x5f", "u005F", "U0000005F", "u0073", "subclasses", "_load_form_data", "application", "_", ".", "builtins"]
 
     if dinosaure == None: return "CAN Y6U H6VE THE Fl7G ? : SuperFl@G.txt"
 
